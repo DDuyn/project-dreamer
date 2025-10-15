@@ -1,0 +1,18 @@
+{
+  "name": "project-dreamer",
+  "module": "src/server/index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev:server": "bun run --hot src/server/index.ts",
+    "dev:client": "bun run --hot src/client/index.ts",
+    "dev": "bun run dev:server",
+    "start": "bun run src/server/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
