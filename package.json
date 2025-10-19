@@ -4,9 +4,8 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev:server": "bun run --hot src/server/index.ts",
-    "dev:client": "bun run --hot src/client/index.ts",
-    "dev": "bun run dev:server",
+    "dev": "bun run --hot src/server/index.ts",
+    "build": "bun run scripts/build-client.ts",
     "start": "bun run src/server/index.ts"
   },
   "devDependencies": {

@@ -25,7 +25,6 @@ export const Layout: FC<LayoutProps> = ({
           </div>
         </nav>
         <main>{children}</main>
-        <script src="/static/game.js"></script>
       </body>
     </html>
   );

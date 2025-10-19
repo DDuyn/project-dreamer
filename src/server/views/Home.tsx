@@ -18,6 +18,9 @@ export const HomePage: FC = () => {
             <button id="test-btn" class="btn btn-primary">
               🧪 Probar Conexión
             </button>
+            <button id="start-btn" class="btn btn-primary">
+              Unirse a Batalla
+            </button>
           </div>
 
           <div id="debug-info" class="debug-info">
@@ -26,6 +29,9 @@ export const HomePage: FC = () => {
           </div>
         </div>
       </div>
+
+      {/* Script específico de esta página */}
+      <script type="module" src="/static/js/home.js"></script>
     </Layout>
   );
 };

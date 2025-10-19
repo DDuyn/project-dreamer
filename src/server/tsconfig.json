@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // Server-side only - No DOM types
+    "lib": ["ESNext"],
+    "types": ["bun-types"]
+  },
+  "include": ["./**/*", "../shared/**/*"],
+  "exclude": ["../client/**/*"]
+}

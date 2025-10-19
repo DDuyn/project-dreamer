@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    // Browser environment - Include DOM types
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "types": []
+  },
+  "include": ["./**/*", "../shared/**/*"],
+  "exclude": ["../server/**/*"]
+}
